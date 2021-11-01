@@ -76,7 +76,12 @@ ___ <- tibble::tibble(
 
 #### Member 1
 
-Add your code here.
+```{r merge-two-vectors-oa, eval = T}
+merged_vectors <- tibble::tibble(
+  "month_name" = month_name,
+  "spongebob_characters" = spongebob_characters
+)
+```
 
 #### Member 2
 
