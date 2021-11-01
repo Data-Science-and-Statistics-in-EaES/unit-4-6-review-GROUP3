@@ -37,7 +37,9 @@ month_name <- c("January",
 
 #### Member 1
 
+```{r spongebob-vector}
 spongebob_characters <- c("spongebob", "patrick", "squidward", "gary", "sandy", "larry", "krabs", "plankton", "dutchman", "karen", "pearl", "neptune")
+```
 
 #### Member 2
 
