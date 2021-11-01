@@ -106,7 +106,7 @@ month_spooky <- tibble::tibble(
 ```{r merge-group4, eval = T}
 number_days <- tibble::tibble(
   "month_name" = month_name,
-  "day numbers" = n_days
+  "day_numbers" = n_days
 )
 ```
 
