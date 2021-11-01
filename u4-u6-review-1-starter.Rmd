@@ -84,7 +84,12 @@ Add your code here.
 
 #### Member 3
 
-Add your code here.
+```{r merge-month-spooky}
+month_spooky <- tibble::tibble(
+  "month_name" = month_name,
+  "spooky_season" = spooky_season
+)
+```
 
 #### Member 4
 
