@@ -45,7 +45,9 @@ Add your code here.
 
 #### Member 3
 
-Add your code here.
+```{r spooky_vector}
+spooky_season <- c(F, F, F, F, F, F, F, F, F, T, F, F)
+```
 
 #### Member 4
 
