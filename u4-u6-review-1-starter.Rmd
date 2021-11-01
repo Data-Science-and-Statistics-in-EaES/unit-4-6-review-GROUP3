@@ -93,7 +93,12 @@ Add your code here.
 
 #### Member 4
 
-Add your code here.
+```{r merge-group4, eval = T}
+number_days <- tibble::tibble(
+  "month_name" = month_name,
+  "day numbers" = n_days
+)
+```
 
 #### Member 5
 
