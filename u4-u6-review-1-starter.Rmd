@@ -51,7 +51,9 @@ spooky_season <- c(F, F, F, F, F, F, F, F, F, T, F, F)
 
 #### Member 4
 
-Add your code here.
+```{r number-daysinmonth}
+n_days <- c(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+```
 
 #### Member 5
 
