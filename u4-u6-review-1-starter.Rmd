@@ -12,6 +12,7 @@ output: html_document
 library(tidyverse) 
 library(lubridate)
 library(janitor)
+library(ggplot2)
 ```
 
 ## Exercises
@@ -119,6 +120,19 @@ Add your code here.
 #### Member 1
 
 Add your code here.
+```{r month-days-part-3}
+number_days <- tibble::tibble(
+  "month_name" = month_name,
+  "day_numbers" = n_days
+)
+```
+
+```{r}
+ggplot(number_days, aes(x = month_name, y = day_numbers)) +
+  geom_point()
+```
+
+
 
 #### Member 2
 
